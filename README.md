@@ -1,5 +1,9 @@
 # Parsing with derivatives
 
+## TODO
+
+- implement conjuctive grammar
+
 ## Implementations
 
 Scala:
@@ -41,6 +45,6 @@ Common Lisp:
 
 - https://github.com/sellout/YACC-is-dead
 
-Scheme, miniKanren
+Scheme, miniKanren:
 
 - https://github.com/webyrd/relational-parsing-with-derivatives
