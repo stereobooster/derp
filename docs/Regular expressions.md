@@ -39,7 +39,7 @@ Let's define derivative:
 - null laguage  $\epsilon$. Brzozowski uses $\lambda$. In other literature sometimes they use $\varepsilon$
 - concatenation $L_1 \cdot L_2$. Brzozowski uses $L_1L_2$
 - union (aka unordered choice) $\cup$. Brzozowski uses $+$. In other literature sometimes they use $|$ and $\lor$
-- intersection $\cap$. Brzozowski uses $\&$. In other literature sometimes they use $\land$
+- intersection $\cap$. Brzozowski uses `&`. In other literature sometimes they use $\land$
 - complement $^c$. Brzozowski uses $'$. In other literature sometimes they use $^\complement$ or $^C$ or $\lnot$
 - any character $\Sigma$. In Regexp they use `.`
 - Kleene star $^*$. In Regexp they use `*`
