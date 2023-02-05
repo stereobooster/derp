@@ -25,3 +25,8 @@ Which means that PEG $\subseteq$ conjuctive grammar with "negative" right contex
 - Any character: $\Sigma$. Ford uses `.`
 - Optional: $L \cup \epsilon$. Ford uses $L?$
 - Concatenation (sequence): $L_1 \cdot L_2$. Ford uses $L_1L_2$
+
+## Related
+
+- [Parsing expression grammars, constructing a linear-time parser](https://www.cs.ru.nl/bachelors-theses/2017/Jan_Martens___s348435___Parsing-expression-grammars-constructing-a-linear-time-parser.pdf)
+- [The computational power of parsing expression grammars](https://arxiv.org/abs/1902.08272)

@@ -14,3 +14,7 @@ Okhotin also proposes "well-founded boolean grammar", which suppose to have uniq
 - union (aka unordered choice) $\cup$. Okhotin uses $|$
 - intersection $\cap$. Okhotin uses `&`
 - complement $^c$. Okhotin uses $\lnot$
+
+## Related
+
+- [sbp: A Scannerless Boolean Parser](http://www.megacz.com/berkeley/research/papers/megacz,adam-sbp.a.scannerless.boolean.parser.pdf)
