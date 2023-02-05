@@ -1,5 +1,13 @@
 # Parsing with derivatives
 
+## Languages
+
+- [Regular expressions](docs/Regular%20expressions.md)
+- Context free grammar
+- Conjuctive grammar
+- Conjuctive grammar with right context
+- PEG
+
 ## TODO
 
-- implement conjuctive grammar
+- write implementation for each language above
