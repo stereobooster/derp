@@ -17,5 +17,6 @@ From: [Converting regexes to Parsing Expression Grammars](https://www.inf.puc-ri
 - [Parsing Multi-Ordered Grammars with the Gray Algorithm](https://npapoylias.gitlab.io/lands-project/Multi-Ordered-Grammars-Gray-Algorithm-Papoulias-PeerJ-PrePrint.pdf)
   - `MOG = PEG + Unordered + RecScopedOrdered`
   - `MOG = CFG + LAhead + Ordered + RecScopedOrdered`
+- [For and Against PEGs: Why we need Multi-Ordered Grammars](https://peerj.com/preprints/27358.pdf)
 - [Certified Parsing of Dependent Regular Grammars](https://goto.ucsd.edu/~john/files/depgrammars.pdf)
-- 
+
