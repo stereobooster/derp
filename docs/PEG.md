@@ -13,7 +13,7 @@ There were previous attempts to define derivative for PEG:
 But the problem is that those definitions are incompatible with original Brzozowski definition. So I want to give definition of PEG in terms of extensions of context free grammars.
 
 - negative syntactic predicate: $!(L_1) \cdot L_2 = \not{\triangleright}' (L_1 \cdot \Sigma^*) \cdot L_2$
-- positive syntactic predicate: $\&(L_1) \cdot L_2 = \triangleright' (L_1 \cdot \Sigma^*) \cdot L_2$
+- positive syntactic predicate: & $(L_1) \cdot L_2 = \triangleright' (L_1 \cdot \Sigma^*) \cdot L_2$
 - prioritized choice: $L_1 / L_2 = L_1 \cup !(L_1) \cdot L_2 = L_1 \cup \not{\triangleright}' (L_1 \cdot \Sigma^*) \cdot L_2$
 
 Which means that PEG $\subseteq$ conjuctive grammar with "negative" right context.
