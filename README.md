@@ -25,6 +25,8 @@
 - [Conjunctive grammar with "negative" right context](docs/Conjunctive%20grammar%20with%20negative%20right%20context.md)
 - [PEG](docs/PEG.md)
 - [Regex](docs/Regex.md)
+- [MOG](docs/MOG.md)
+- [POMS-expressions](docs/POMS.md)
 
 ## TODO
 

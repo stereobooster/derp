@@ -14,9 +14,6 @@ From: [Converting regexes to Parsing Expression Grammars](https://www.inf.puc-ri
 
 - https://github.com/goodmami/pe
 - [Converting Regex to Parsing Expression Grammar with Captures](https://repository.lib.ncsu.edu/bitstream/handle/1840.20/38685/etd.pdf?sequence=1)
-- [Parsing Multi-Ordered Grammars with the Gray Algorithm](https://npapoylias.gitlab.io/lands-project/Multi-Ordered-Grammars-Gray-Algorithm-Papoulias-PeerJ-PrePrint.pdf)
-  - `MOG = PEG + Unordered + RecScopedOrdered`
-  - `MOG = CFG + LAhead + Ordered + RecScopedOrdered`
-- [For and Against PEGs: Why we need Multi-Ordered Grammars](https://peerj.com/preprints/27358.pdf)
+- [Regular Expressions with Lookahead](https://www.researchgate.net/publication/351177928_Regular_Expressions_with_Lookahead)
 - [Certified Parsing of Dependent Regular Grammars](https://goto.ucsd.edu/~john/files/depgrammars.pdf)
 
