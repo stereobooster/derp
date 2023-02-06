@@ -17,6 +17,8 @@
 
 ## Formal languages and their derivatives
 
+### With derivatives
+
 - [Regular expressions](docs/Regular%20expressions.md)
 - [Context free grammar](docs/Context%20free%20grammar.md)
 - [Conjunctive grammar](docs/Conjunctive%20grammar.md)
@@ -24,6 +26,9 @@
 - [Conjunctive grammar with right context](docs/Conjunctive%20grammar%20with%20right%20context.md)
 - [Conjunctive grammar with "negative" right context](docs/Conjunctive%20grammar%20with%20negative%20right%20context.md)
 - [PEG](docs/PEG.md)
+
+### Without derivatives
+
 - [Regex](docs/Regex.md)
 - [MOG](docs/MOG.md)
 - [POMS-expressions](docs/POMS.md)
