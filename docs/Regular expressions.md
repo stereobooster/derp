@@ -44,3 +44,7 @@ Let's define derivative:
 - Any character: $\Sigma$. In Regexp they use `.`
 - Kleene star $^*$. In Regexp they use `*`
 - "Kleene plus" $L^+ = L \cdot L^*$. In Regexp they use `+`
+
+## Related
+
+- https://github.com/awalterschulze/regex-reexamined-coq/

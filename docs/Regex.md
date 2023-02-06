@@ -13,7 +13,5 @@ From: [Converting regexes to Parsing Expression Grammars](https://www.inf.puc-ri
 ## Related
 
 - https://github.com/goodmami/pe
+- https://rosie-lang.org/about/
 - [Converting Regex to Parsing Expression Grammar with Captures](https://repository.lib.ncsu.edu/bitstream/handle/1840.20/38685/etd.pdf?sequence=1)
-- [Regular Expressions with Lookahead](https://www.researchgate.net/publication/351177928_Regular_Expressions_with_Lookahead)
-- [Certified Parsing of Dependent Regular Grammars](https://goto.ucsd.edu/~john/files/depgrammars.pdf)
-  - https://github.com/jsarracino/dependent-regular-grammars

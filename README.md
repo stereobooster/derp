@@ -26,6 +26,7 @@
 - [Conjunctive grammar with right context](docs/Conjunctive%20grammar%20with%20right%20context.md)
 - [Conjunctive grammar with "negative" right context](docs/Conjunctive%20grammar%20with%20negative%20right%20context.md)
 - [PEG](docs/PEG.md)
+- [Regular expressions with lookahead](docs/Regular%20expressions%20with%20lookahead.md)
 
 ### Without derivatives
 
@@ -44,3 +45,5 @@
 
 - [Parsing with First-Class Derivatives](https://raw.githubusercontent.com/b-studios/fcd/master/paper.pdf)
 - [Derivative Grammars: A Symbolic Approach to Parsing with Derivatives](https://dl.acm.org/doi/pdf/10.1145/3360553)
+- [Certified Parsing of Dependent Regular Grammars](https://goto.ucsd.edu/~john/files/depgrammars.pdf)
+  - https://github.com/jsarracino/dependent-regular-grammars
