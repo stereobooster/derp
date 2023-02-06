@@ -31,3 +31,11 @@
 ## TODO
 
 - write implementation for each language above
+  - with PwD
+  - with PwZ
+- hierarchy of grammars
+
+## Other links
+
+- [Parsing with First-Class Derivatives](https://raw.githubusercontent.com/b-studios/fcd/master/paper.pdf)
+- [Derivative Grammars: A Symbolic Approach to Parsing with Derivatives](https://dl.acm.org/doi/pdf/10.1145/3360553)
