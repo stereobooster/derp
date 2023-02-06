@@ -18,3 +18,5 @@ Okhotin also proposes "well-founded boolean grammar", which suppose to have uniq
 ## Related
 
 - [sbp: A Scannerless Boolean Parser](http://www.megacz.com/berkeley/research/papers/megacz,adam-sbp.a.scannerless.boolean.parser.pdf)
+- [Partial Derivatives of an Extended Regular Expression](https://www.researchgate.net/publication/220836274_Partial_Derivatives_of_an_Extended_Regular_Expression)
+- [Efficient Parsing with Derivatives and Zippers](https://infoscience.epfl.ch/record/287059?ln=en)
