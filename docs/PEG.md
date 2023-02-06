@@ -30,3 +30,4 @@ Which means that PEG $\subseteq$ conjuctive grammar with "negative" right contex
 
 - [Parsing expression grammars, constructing a linear-time parser](https://www.cs.ru.nl/bachelors-theses/2017/Jan_Martens___s348435___Parsing-expression-grammars-constructing-a-linear-time-parser.pdf)
 - [The computational power of parsing expression grammars](https://arxiv.org/abs/1902.08272)
+- [Packrat Parsers Can Handle Practical Grammars in Mostly Constant Space](https://kmizu.github.io/papers/paste513-mizushima.pdf)
