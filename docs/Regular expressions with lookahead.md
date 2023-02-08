@@ -18,15 +18,15 @@
 
 They don't use nullabilty function ($\delta$), instead they use $D^\sim$:
 
-|      | REwLA                                                                       | delta                                                   |
-| ---- | --------------------------------------------------------------------------- | ------------------------------------------------------- |
-| RE1  | $D_{a}^\sim(\epsilon) = \epsilon$                                           | $\delta(\epsilon) = \epsilon$                           |
-| RE2  | $D_{a}^\sim(\emptyset) = \emptyset$                                         | $\delta(\emptyset) = \emptyset$                         |
-| RE2  | $D_{a}^\sim(a) = \emptyset$                                                 | $\delta(a) = \emptyset$                                 |
-| RE3  | $D_{a}^\sim(L_{1} \cup L_{2}) = D_{a}^\sim(L_{1}) \cup D_{a}^\sim(L_{2})$   | $\delta(L_1 \cup L_2) = \delta(L_1) \cup \delta(L_2)$   |
-| REL4 | $D_{a}^\sim(L_{1} \cdot L_{2}) = D_{a}^\sim(L_{1}) \cdot D_{a}^\sim(L_{2})$ | $\delta(L_1 \cdot L_2) = \delta(L_1) \cdot \delta(L_2)$ |
-| RE5  | $D_{a}^\sim(L^*) = \epsilon$                                                | $\delta(L^*) = \epsilon$                                |
-| REE6  | $D_{a}^\sim(L_{1} \cap L_{2}) = D_{a}^\sim(L_{1}) \cap D_{a}^\sim(L_{2})$   | $\delta(L_1 \cap L_2) = \delta(L_1) \cap \delta(L_2)$   |
-| REE7  | $D_{a}^\sim(L') =$ ...                                                      | $\delta(L') =$ ...                                      |
-| REL8 | $D_{a}^\sim(!L) = !(D_{a}(L) \cup D_{a}^\sim(L))$                           |                                                         |
-| REL9 | $D_{a}^\sim(\\&L) = \\&(D_{a}(L) \cup D_{a}^\sim(L))$                       |                                                         |
+|      | REwLA                                                                       |      | delta                                                   |
+| ---- | --------------------------------------------------------------------------- | ---- | ------------------------------------------------------- |
+| REL1 | $D_{a}^\sim(\epsilon) = \epsilon$                                           | RE1  | $\delta(\epsilon) = \epsilon$                           |
+| REL2 | $D_{a}^\sim(\emptyset) = \emptyset$                                         | RE2  | $\delta(\emptyset) = \emptyset$                         |
+| REL2 | $D_{a}^\sim(a) = \emptyset$                                                 | RE2  | $\delta(a) = \emptyset$                                 |
+| REL3 | $D_{a}^\sim(L_{1} \cup L_{2}) = D_{a}^\sim(L_{1}) \cup D_{a}^\sim(L_{2})$   | RE3  | $\delta(L_1 \cup L_2) = \delta(L_1) \cup \delta(L_2)$   |
+| REL4 | $D_{a}^\sim(L_{1} \cdot L_{2}) = D_{a}^\sim(L_{1}) \cdot D_{a}^\sim(L_{2})$ | RE4  | $\delta(L_1 \cdot L_2) = \delta(L_1) \cdot \delta(L_2)$ |
+| REL5 | $D_{a}^\sim(L^*) = \epsilon$                                                | RE5  | $\delta(L^*) = \epsilon$                                |
+|      |                                                                             | REE6 | $\delta(L_1 \cap L_2) = \delta(L_1) \cap \delta(L_2)$   |
+|      |                                                                             | REE7 | $\delta(L') =$ ...                                      |
+| REL8 | $D_{a}^\sim(!L) = !(D_{a}(L) \cup D_{a}^\sim(L))$                           |      |                                                         |
+| REL9 | $D_{a}^\sim(\\&L) = \\&(D_{a}(L) \cup D_{a}^\sim(L))$                       |      |                                                         |
