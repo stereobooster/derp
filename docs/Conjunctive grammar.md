@@ -24,4 +24,4 @@ It is possible to use the same definition because language equations with inters
 
 - concatenation $L_1 \cdot L_2$. Okhotin uses $L_1L_2$
 - union (aka unordered choice) $\cup$. Okhotin uses $|$
-- intersection $\cap$. Okhotin uses `&`
+- intersection $\cap$. Okhotin uses $\\&$
