@@ -1,5 +1,7 @@
 # Parsing with derivatives
 
+[![](docs/Operations%20concept%20map.svg)](docs/Operations%20concept%20map.md)
+
 ## Innovation
 
 - Parsing with derivatives can easily support [Conjunctive grammar](docs/Conjunctive%20grammar.md), which can parse not context-free grammar, for example $\set{a^nb^nc^n \mid  n \geq 0}$. This is not something innovative per se, but I haven't seen it mentioned anywhere in reviewed publications.
