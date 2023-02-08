@@ -8,7 +8,7 @@ They also ntocied that regular expressions with general recursion correspond to 
 
 Matthew Might et al. in 2011 showed how to implement algorithm to parse CFG with Brzozowski derivative. See [Parsing with Derivatives](https://matt.might.net/papers/might2011derivatives.pdf).
 
-It uses the same definition of Brzozowski derivative as in [Regula expressions](./Regular%20expressions.md), except they don't use intersection (R6) and complement (R7).
+It uses the same definition of Brzozowski derivative as in [Regula expressions](./Regular%20expressions.md), except they don't use intersection (REE6) and complement (REE7).
 
 ## Notation
 

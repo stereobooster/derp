@@ -15,23 +15,23 @@ Let's define "nullability" function as:
 
 Let's define it recursively:
 
-1. $\delta(\epsilon) = \epsilon$
-2. $\delta(\emptyset) = \emptyset, \delta(x) = \emptyset, x \in \Sigma$
-3. $\delta(L_1 \cup L_2) = \delta(L_1) \cup \delta(L_2)$
-4. $\delta(L_1 \cdot L_2) = \delta(L_1) \cdot \delta(L_2)$
-5. $\delta(L^*) = \epsilon$
-6. $\delta(L_1 \cap L_2) = \delta(L_1) \cap \delta(L_2)$
-7. $\delta(L^c) = \epsilon, \text{ if } \delta(L) = \emptyset$ and $\delta(L^c) = \emptyset, \text{ if } \delta(L) = \epsilon$
+- RE1 $\delta(\epsilon) = \epsilon$
+- RE2 $\delta(\emptyset) = \emptyset, \delta(x) = \emptyset, x \in \Sigma$
+- RE3 $\delta(L_1 \cup L_2) = \delta(L_1) \cup \delta(L_2)$
+- RE4 $\delta(L_1 \cdot L_2) = \delta(L_1) \cdot \delta(L_2)$
+- RE5 $\delta(L^*) = \epsilon$
+- REE6 $\delta(L_1 \cap L_2) = \delta(L_1) \cap \delta(L_2)$
+- REE7 $\delta(L^c) = \epsilon, \text{ if } \delta(L) = \emptyset$ and $\delta(L^c) = \emptyset, \text{ if } \delta(L) = \epsilon$
 
 Let's define derivative:
 
-1. $D_a(a) = \epsilon$
-2. $D_a(b) = \emptyset, \text{ if } b = \emptyset, b = \epsilon, b \in \Sigma \text{ and } b \neq a$
-3. $D_a(L_1 \cup L_2) = D_a(L_1) \cup D_a(L_2)$
-4. $D_a(L_1 \cdot L_2) = D_a(L_1) \cdot L_2 \cup \delta(L_1) \cdot D_a(L_2)$
-5. $D_a(L^*) = D_a(L) \cdot L^*$
-6. $D_a(L_1 \cap L_2) = D_a(L_1) \cap D_a(L_2)$
-7. $D_a(L^c) = D_a(L)^c$
+- RE1 $D_a(a) = \epsilon$
+- RE2 $D_a(b) = \emptyset, \text{ if } b = \emptyset, b = \epsilon, b \in \Sigma \text{ and } b \neq a$
+- RE3 $D_a(L_1 \cup L_2) = D_a(L_1) \cup D_a(L_2)$
+- RE4 $D_a(L_1 \cdot L_2) = D_a(L_1) \cdot L_2 \cup \delta(L_1) \cdot D_a(L_2)$
+- RE5 $D_a(L^*) = D_a(L) \cdot L^*$
+- REE6 $D_a(L_1 \cap L_2) = D_a(L_1) \cap D_a(L_2)$
+- REE7 $D_a(L^c) = D_a(L)^c$
 
 ## Notation
 
@@ -41,9 +41,9 @@ Let's define derivative:
 - union (aka unordered choice): $\cup$. Brzozowski uses $+$. In other literature sometimes they use $|$ and $\lor$
 - intersection: $\cap$. Brzozowski uses $\\&$. In other literature sometimes they use $\land$
 - complement: $^c$. Brzozowski uses $'$. In other literature sometimes they use $^\complement$ or $^C$ or $\lnot$
-- Any character: $\Sigma$. In Regexp they use `.`
-- Kleene star $^*$. In Regexp they use `*`
-- "Kleene plus" $L^+ = L \cdot L^*$. In Regexp they use `+`
+- Any character: $\Sigma$. In Regex they use `.`
+- Kleene star $^*$. In Regex, PEG, MOG they use `*`
+- "Kleene plus" $L^+ = L \cdot L^*$. In Regex, PEG, MOG they use `+`
 
 ## Related
 

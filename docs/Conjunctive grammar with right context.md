@@ -10,31 +10,8 @@ $$
 \begin{align}
 & L_1 \cap \triangleright L_2 = \\
 & L_1 \cdot (\epsilon \cap \triangleright L_2) = \\
-& L_1 \cdot \triangleright' L_2
+& L_1 \cdot \\& L_2
 \end{align}
 $$
 
-Now we can define additional rules for delta:
-
-- (R8) $\delta(\triangleright' L) = \delta(L)$
-
-And derivative:
-
-- (R4) $D_a(L_1 \cdot L_2) = D_a(L_1) \cdot L_2 \cup \delta(L_1) \cdot D_a(L_2) \cup D_{a}^\triangleright (L_1) \cdot D_{a}(L_2)$
-- (R7) excluded
-- (R8) $D_a(\triangleright' L) = \emptyset$ 
-
-And "context" derivative:
-
-1. $D_a^\triangleright(a) = \emptyset$
-2. $D_a^\triangleright(b) = \emptyset, \text{ if } b = \emptyset, b = \epsilon, b \in \Sigma \text{ and } b \neq a$
-3. $D_a^\triangleright(L_1 \cup L_2) = D_a^\triangleright(L_1) \cup D_a^\triangleright(L_2)$
-4. $D_{a}^\triangleright(L_{1} \cdot L_{2}) = D_{a}^\triangleright(L_{1}) \cup \delta(L_{1}) \cdot  D_{a}^\triangleright (L_{2})$
-5. $D_{a}^\triangleright(L^*) = D_{a}^\triangleright(L)$
-6. $D_a^\triangleright(L_1 \cap L_2) = D_a^\triangleright(L_1) \cap D_a^\triangleright(L_2)$
-7. excluded
-8. $D_{a}^\triangleright(\triangleright' L) = \triangleright' D_{a}(L)$
-
-**Note**: this was not previously proposed in any reviewed publication. I also didn't try to prove it myself, this is rather educated guess.
-
-**TODO**: provide at least bare explanation
+$\\&$ - is positive lookahead from [REwLA](Regular%20expressions%20with%20lookahead.md).

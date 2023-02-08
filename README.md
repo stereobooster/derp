@@ -5,9 +5,8 @@
 ## Innovation
 
 - Parsing with derivatives can easily support [Conjunctive grammar](docs/Conjunctive%20grammar.md), which can parse not context-free grammar, for example $\set{a^nb^nc^n \mid  n \geq 0}$. This is not something innovative per se, but I haven't seen it mentioned anywhere in reviewed publications.
-- I proposed, but haven't verified, derivative formula for [Conjunctive grammar with right context](docs/Conjunctive%20grammar%20with%20right%20context.md)
-- I proposed, but haven't verified, derivative formula for [Conjunctive grammar with "negative" right context](docs/Conjunctive%20grammar%20with%20negative%20right%20context.md)
-- I showed how to express [PEG](docs/PEG.md) in terms of Conjunctive grammar with "negative" right context. Which allows to define derivative formula for PEG.
+- Parsing with derivatives can support [Conjunctive grammar with right context](docs/Conjunctive%20grammar%20with%20right%20context.md), if we add recursion to [REwLA](docs/Regular%20expressions%20with%20lookahead.md)
+- I showed how to express [PEG](docs/PEG.md) in terms of REwLA with recursion. Which allows to define derivative formula for PEG.
   - This allows to create variation of PEG with unordered choice. Related work:
     - [Parsing Expression Grammars with Unordered Choices](https://www.jstage.jst.go.jp/article/ipsjjip/25/0/25_975/_pdf)
   - By the nature of parsing with derivatives it doesn't have issues with left recursion. Related works:
@@ -23,15 +22,14 @@
 
 - [Regular expressions](docs/Regular%20expressions.md)
 - [Context free grammar](docs/Context%20free%20grammar.md)
-- [Conjunctive grammar](docs/Conjunctive%20grammar.md)
-- [Boolean grammar](docs/Boolean%20grammar.md)
-- [Conjunctive grammar with right context](docs/Conjunctive%20grammar%20with%20right%20context.md)
-- [Conjunctive grammar with "negative" right context](docs/Conjunctive%20grammar%20with%20negative%20right%20context.md)
-- [PEG](docs/PEG.md)
 - [Regular expressions with lookahead](docs/Regular%20expressions%20with%20lookahead.md)
+- [Conjunctive grammar](docs/Conjunctive%20grammar.md)
+- [Conjunctive grammar with right context](docs/Conjunctive%20grammar%20with%20right%20context.md)
+- [PEG](docs/PEG.md)
 
 ### Without derivatives
 
+- [Boolean grammar](docs/Boolean%20grammar.md)
 - [Regex](docs/Regex.md)
 - [MOG](docs/MOG.md)
 - [POMS-expressions](docs/POMS.md)
@@ -41,7 +39,6 @@
 - write implementation for each language above
   - with PwD
   - with PwZ
-- hierarchy of grammars
 
 ## Other links
 

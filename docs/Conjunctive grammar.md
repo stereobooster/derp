@@ -16,7 +16,7 @@ $$
 
 ## Brzozowski derivatives of conjunctive grammar
 
-Derivative can be defined the same way as for [Context free grammar](./Context%20free%20grammar.md), except we need to add rule for intersection (R6) from [Regular expressions](./Regular%20expressions.md).
+Derivative can be defined the same way as for [Context free grammar](./Context%20free%20grammar.md), except we need to add rule for intersection (REE6) from [Regular expressions](./Regular%20expressions.md).
 
 It is possible to use the same definition because language equations with intersection also have the least solution (fixed point). See **Corollary 5.19 (CG - Least solution)** in [Extending context-free grammars with conjunction and negation, Astrid van der Jagt, 2021](https://www.cs.ru.nl/bachelors-theses/2021/Astrid_van_der_Jagt___4571037___Extending_context-free_grammars_with_conjunction_and_negation.pdf)
 
