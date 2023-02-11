@@ -12,8 +12,11 @@ There were previous attempts to define derivative for PEG:
 
 But the problem is that those definitions are incompatible with original Brzozowski definition. So I want to give definition of PEG in terms of extensions of context free grammars.
 
-- (PEG1) negative syntactic predicate: $!_{PEG}(L_1) \cdot L_2 = !(L_1 \cdot \Sigma^*) \cdot L_2$
-- (PEG2) positive syntactic predicate: $\\&_{PEG}(L_1) \cdot L_2 = \\&(L_1 \cdot \Sigma^*) \cdot L_2$
+- (PEG1) positive syntactic predicate: $\\&_{PEG}(L_1) \cdot L_2 = \\&(L_1 \cdot \Sigma^*) \cdot L_2$
+  - $\\&(L) = \\&_{PEG}(L \cdot \\&_{PEG}(\epsilon))$
+- (PEG2) negative syntactic predicate: $!_{PEG}(L_1) \cdot L_2 = !(L_1 \cdot \Sigma^*) \cdot L_2$
+  - $!(L) = !{PEG}(L \cdot !_{PEG}(\Sigma))$
+  - $!_{PEG}(!_{PEG}(L)) = \\&_{PEG}(L)$
 - (PEG3) prioritized choice: $L_1 / L_2 = L_1 \cup !_{PEG}(L_1) \cdot L_2 = L_1 \cup !(L_1 \cdot \Sigma^*) \cdot L_2$
 
 Where `!` and `&` are operators from [REwLA](Regular%20expressions%20with%20lookahead.md).

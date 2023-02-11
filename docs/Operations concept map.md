@@ -11,21 +11,22 @@ Properly this diagram is called concept lattice (it comes from Formal Concept An
 | RE       | x   | x   | x     |       |       |     |     |     |       |
 | REE      | x   | x   | x     | x     | x     |     |     |     |       |
 | REwLA    | x   | x   | x     | x (4) | x (5) |     | x   | x   | x (2) |
-| PEG      | x   |     | x (1) | ? (4) | ? (5) | x   | ?   | ?   | x     |
+| PEG      | x   | (6) | x (1) | (4)   | (5)   | x   | x   | x   | x     |
 | CFG      | x   | x   | x (1) |       |       | x   |     |     |       |
 | Conj     | x   | x   | x (1) | x     |       | x   |     |     |       |
 | Bool     | x   | x   | x (1) | x     | x     | x   |     |     |       |
 | ConjCont | x   | x   | x (1) | x     |       | x   | x   |     |       |
-| ~MOG (3) | x   | x   | x (1) | ? (4) | ? (5) | x   | ?   | ?   | x     |
+| ~MOG (3) | x   | x   | x (1) | (4)   | (5)   | x   | x   | x   | x     |
 
 - (1) Kleene star (`A*`) can be simulated with `S -> "" | S · A`
 - (2) Prioritised choice (`A / B`) can be simulated with `A ∪ !(A) · B`
-- (3) MOG has concept of "tainted" operators, this diagram doesn't take it into account
+- (3) MOG has concept of "tainted" and scoped operators, this diagram doesn't take it into account
 
 **Note**: not taken in account in diagram:
 
-- (4) Intersection (`A ∩ B`) can be simulated with `&(A) · &(B) · Σ* · &(ϵ)`
-- (5) Complement (`A'`) can be simulated with `!(A) · Σ* · &(ϵ)`
+- (4) Intersection (`A ∩ B`) can be simulated with `&(A) · &(B) · (Σ* · &(ϵ))`. Is this correct for **PEG, MOG**?
+- (5) Complement (`A'`) can be simulated with `!(A) · (Σ* · !(Σ))`. Is this correct for **PEG, MOG**?
+- (6) Union `A ∪ b = (A' ∩ B')'`. Is this correct for **PEG**?
 - Negative lookahead (`!A`) can be simulated with positivie lookahead and complement `&A'`
 - Positivie lookahead (`&A`) can be simulated with negative lookahead `!!A`
 
