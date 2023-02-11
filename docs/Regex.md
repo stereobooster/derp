@@ -15,3 +15,5 @@ From: [Converting regexes to Parsing Expression Grammars](https://www.inf.puc-ri
 - https://github.com/goodmami/pe
 - https://rosie-lang.org/about/
 - [Converting Regex to Parsing Expression Grammar with Captures](https://repository.lib.ncsu.edu/bitstream/handle/1840.20/38685/etd.pdf?sequence=1)
+- [Regular Expressions with Backreferences Re-examined](<https://www.cair.org.za/sites/default/files/2019-08/regex%20(003).pdf>)
+  - TODO: rename Regex to REwB
