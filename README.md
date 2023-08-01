@@ -1,4 +1,4 @@
-Moved to: https://github.com/stereobooster/zipper
+Moved to https://github.com/stereobooster/parsing
 
 # Parsing with derivatives
 
