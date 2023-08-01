@@ -36,12 +36,6 @@ Moved to https://github.com/stereobooster/parsing
 - [MOG](docs/MOG.md)
 - [POMS-expressions](docs/POMS.md)
 
-## TODO
-
-- write implementation for each language above
-  - with PwD
-  - with PwZ
-
 ## Other links
 
 - [Parsing with First-Class Derivatives](https://raw.githubusercontent.com/b-studios/fcd/master/paper.pdf)
